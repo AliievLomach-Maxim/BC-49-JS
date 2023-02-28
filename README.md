@@ -12,3 +12,18 @@
 -   Example 8 Logical operators
 -   Example 9 Default value and null merge operator​⁡
 -   Example 10 The % operator and string methods
+
+# Module 01 / Less-02 Branching. Cycles.
+
+-   Example 1 User input and branching
+-   Example 2 Display time (if...else)
+-   Example 3 Branching
+-   Example 4 Nested branches
+-   Example 5 Link formatting (endsWith)
+-   Example 6 Link formatting (includes and logical "AND")
+-   Example 7 Link formatting (ternary operator)
+-   Example 8 if...else and logical operators
+-   Example 9 Project submission deadline (if...else)
+-   Example 10 Project submission deadline (switch)
+-   Example 11 The for loop
+-   Example 12 User input and branching
