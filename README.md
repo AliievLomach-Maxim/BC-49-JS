@@ -1,6 +1,8 @@
 # BC-49-JS
 
-# Module 01 / Less-01 Variables, types and operators.
+## Module 01
+
+### Less-01 Variables, types and operators.
 
 -   Example 1 Mathematical operators
 -   Example 2 Combined operators
@@ -13,7 +15,7 @@
 -   Example 9 Default value and null merge operator​⁡
 -   Example 10 The % operator and string methods
 
-# Module 01 / Less-02 Branching. Cycles.
+### Less-02 Branching. Cycles.
 
 -   Example 1 User input and branching
 -   Example 2 Display time (if...else)
@@ -27,3 +29,16 @@
 -   Example 10 Project submission deadline (switch)
 -   Example 11 The for loop
 -   Example 12 User input and branching
+
+## Module 02
+
+### Less-01 Array.
+
+-   Example 1 Basic array operations
+-   Example 2 Arrays and strings
+-   Example 3 Sorting the array
+-   Example 4 Arrays and loops
+-   Example 5 Arrays and strings
+-   Example 6 Arrays and strings
+-   Example 7 Search for an item
+-   Example 8 Shop
