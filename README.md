@@ -42,3 +42,15 @@
 -   Example 6 Arrays and strings
 -   Example 7 Search for an item
 -   Example 8 Shop
+
+### Less-02 Function.
+
+-   Example 1 Body mass index⁡
+-   Example 2 The smallest number
+-   Example 3 Area of ​​the rectangle
+-   Example 4 Logging of elements
+-   Example 5 Logging of contacts
+-   Example 6 Finding the largest element
+-   Example 7 Average value
+-   Example 8 Time formatting
+-   Example 9 Course collection
