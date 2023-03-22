@@ -19,4 +19,4 @@
 
 // function fn({ name, age }) {}
 // console.log('object')
-import './scripts/less_15/app'
+import './scripts/less_17/app'
