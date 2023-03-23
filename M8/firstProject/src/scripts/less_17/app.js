@@ -35,51 +35,51 @@
 
 // const seconds = Math.floor((minutesAsHours % minutes) * 60)
 
-const nextNewYear = new Date(2024, 0, 1)
+// const nextNewYear = new Date(2024, 0, 1)
 
-function createTime() {
-	const today = new Date()
+// function createTime() {
+// 	const today = new Date()
 
-	const diff = nextNewYear - today
+// 	const diff = nextNewYear - today
 
-	const timeLeft = diff / 1000 / 60 / 60 / 24
-	const days = Math.floor(timeLeft)
+// 	const timeLeft = diff / 1000 / 60 / 60 / 24
+// 	const days = Math.floor(timeLeft)
 
-	const hoursAsDays = timeLeft - days
-	const hours = Math.floor(hoursAsDays * 24)
-	const minutesAsHours = timeLeft - days - hours / 24
-	const minutes = Math.floor((diff / 1000 / 60) % 60)
-	const seconds = Math.floor((diff / 1000) % 60)
-	updateTime(days, hours, minutes, seconds)
-}
-// const something = updateTime({ days, hours, minute, seconds })
-// return something
-const main = document.querySelector('.main')
+// 	const hoursAsDays = timeLeft - days
+// 	const hours = Math.floor(hoursAsDays * 24)
+// 	const minutesAsHours = timeLeft - days - hours / 24
+// 	const minutes = Math.floor((diff / 1000 / 60) % 60)
+// 	const seconds = Math.floor((diff / 1000) % 60)
+// 	updateTime(days, hours, minutes, seconds)
+// }
+// // const something = updateTime({ days, hours, minute, seconds })
+// // return something
+// const main = document.querySelector('.main')
 
-const daysEl = document.createElement('h1')
-daysEl.classList = 'days'
+// const daysEl = document.createElement('h1')
+// daysEl.classList = 'days'
 
-const hoursEl = document.createElement('h1')
-hoursEl.classList = 'hours'
+// const hoursEl = document.createElement('h1')
+// hoursEl.classList = 'hours'
 
-const minutesEl = document.createElement('h1')
-minutesEl.classList = 'minutes'
+// const minutesEl = document.createElement('h1')
+// minutesEl.classList = 'minutes'
 
-const secondsEl = document.createElement('h1')
-secondsEl.classList = 'seconds'
+// const secondsEl = document.createElement('h1')
+// secondsEl.classList = 'seconds'
 
-main.style.display = 'flex'
+// main.style.display = 'flex'
 
-main.append(daysEl, hoursEl, minutesEl, secondsEl)
+// main.append(daysEl, hoursEl, minutesEl, secondsEl)
 
-function updateTime(days, hours, minutes, seconds) {
-	daysEl.textContent = `${days}:`
-	hoursEl.textContent = `${hours.toString().padStart(2, '0')}:`
-	minutesEl.textContent = `${minutes < 10 ? '0' + minutes : minutes}:`
-	secondsEl.textContent = `${seconds.toString().padStart(2, '0')}`
-}
+// function updateTime(days, hours, minutes, seconds) {
+// 	daysEl.textContent = `${days}:`
+// 	hoursEl.textContent = `${hours.toString().padStart(2, '0')}:`
+// 	minutesEl.textContent = `${minutes < 10 ? '0' + minutes : minutes}:`
+// 	secondsEl.textContent = `${seconds.toString().padStart(2, '0')}`
+// }
 
-setInterval(createTime, 1000)
+// setInterval(createTime, 1000)
 // ==========
 // const main = document.querySelector('.main')
 // const daysEl = document.createElement('div')
