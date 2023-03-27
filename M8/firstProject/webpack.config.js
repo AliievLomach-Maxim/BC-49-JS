@@ -14,6 +14,7 @@ module.exports = {
 		watchFiles: ['./**/*'],
 	},
 	plugins: [new HtmlWebpackPlugin({ template: './index.html' })],
+
 	module: {
 		rules: [
 			{

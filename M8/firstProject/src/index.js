@@ -6,7 +6,7 @@
 // // props.default()
 // // props.fn()
 // import './styles/style.css'
-// import './styles/styles.scss'
+import './styles/styles.scss'
 
 // import _ from 'lodash'
 
@@ -18,5 +18,9 @@
 // }
 
 // function fn({ name, age }) {}
-// console.log('object')
-import './scripts/less_18/app'
+// // console.log('object')
+// import './scripts/less_19/app'
+// import './scripts/less_19/users'
+
+// import './scripts/less_20/app'
+import './scripts/less_20/PLatziFake/app'
