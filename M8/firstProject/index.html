@@ -7,7 +7,9 @@
 		<title>Less-19</title>
 	</head>
 	<body>
-		<form>
+		<button class="get-post">Get Post</button>
+		<br /><br />
+		<form class="form-create">
 			<label>
 				Title
 				<input name="title" type="text" />
@@ -18,9 +20,27 @@
 			</label>
 			<button>Create post</button>
 		</form>
-		<div class="main">
-			<ul></ul>
-			<ul class="pagination"></ul>
-		</div>
+		<!--  -->
+		<br /><br />
+		<form class="form-update">
+			<label>
+				Title
+				<input name="title" type="text" />
+			</label>
+			<label>
+				Body
+				<input name="body" type="text" />
+			</label>
+			<button>Update post</button>
+		</form>
+		<!--  -->
+		<br /><br />
+		<form class="form-delete">
+			<label>
+				Title
+				<input name="id-delete" type="number" />
+			</label>
+			<button>Delete post</button>
+		</form>
 	</body>
 </html>
