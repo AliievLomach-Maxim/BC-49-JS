@@ -2,5 +2,16 @@ li {
 	list-style-type: none;
 	display: inline-block;
 	margin-left: 10px;
+}
+
+img {
+	width: 300px;
+}
+
+.loader {
+	display: none;
+}
+
+button {
 	cursor: pointer;
 }
